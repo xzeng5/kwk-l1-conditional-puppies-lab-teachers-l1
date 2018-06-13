@@ -31,7 +31,7 @@ end
   # This method should tell Rachel good job if she gets less than half her maximum allowance
   #and to get back on her puppy restriction when she exceeds her maximum.
 
-
+def some_puppies(number_puppies, max_puppy)
 
 # BONUS
 # 4. Rachel has decided to track both her puppy allowance AND her cat allowance.
