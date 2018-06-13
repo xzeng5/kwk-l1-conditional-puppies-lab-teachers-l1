@@ -34,6 +34,8 @@ end
 def some_puppies(number_puppies, max_puppy)
   if number_puppies < 0.5*max_puppy
     "Good job, Rachel!"
+  elsif number_puppies > max_puppy
+    "Get back to your animal goals!"
   end
 end
 
