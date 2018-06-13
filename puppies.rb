@@ -32,7 +32,9 @@ end
   #and to get back on her puppy restriction when she exceeds her maximum.
 
 def some_puppies(number_puppies, max_puppy)
-  
+  if number_puppies < 0.5*max_puppy
+    "Good job, Rachel!"
+  end
 end
 
 # BONUS
