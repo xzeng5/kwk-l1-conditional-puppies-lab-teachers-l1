@@ -3,7 +3,7 @@
   #otherwise it should return "Well done, Rachel!"
 def no_puppies(number_puppies)
   if number_puppies > 0
-    "No more puppies!"
+    "Get back to your animal goals!"
   else
     "Good job, Rachel!"
   end
