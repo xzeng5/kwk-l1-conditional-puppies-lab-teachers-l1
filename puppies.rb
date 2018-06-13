@@ -2,7 +2,11 @@
   #If the number of puppies is greater than zero then this method should return "No more puppies!"
   #otherwise it should return "Well done, Rachel!"
 def no_puppies(number_puppies)
-
+  if number_puppies > 0 
+    "No more puppies!"
+  else
+    "Well done, Rachel!"
+  end
 end
 
 
