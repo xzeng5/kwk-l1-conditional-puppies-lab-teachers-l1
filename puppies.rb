@@ -49,5 +49,6 @@ def both_animals (number_puppies, number_cats)
   if number_puppies == 0 || number_cats == 0
     "Good job, Rachel!"
   elsif number_puppies >= 1 && number_cats >= 1
-    ""
+    "Slow down!"
+  end
 end
