@@ -32,6 +32,8 @@ end
   #and to get back on her puppy restriction when she exceeds her maximum.
 
 def some_puppies(number_puppies, max_puppy)
+  
+end
 
 # BONUS
 # 4. Rachel has decided to track both her puppy allowance AND her cat allowance.
