@@ -16,7 +16,15 @@ end
   # to slow down if she's found exactly 3 puppies,
   # and to get back on her animal restriction if she gets more than 3 puppies.
 
-
+def less_puppies(number_puppies)
+  if number_puppies < 3
+    "Good job, Rachel!"
+  elsif number_puppies == 3
+    "Slow down, Rachel!"
+  else
+    "Get back!"
+  end
+end
 
 # 3. We've decided to give Rachel a little more control over her puppy obsession.
   # Write a method called some_puppies that takes in two arguments - the number of puppies she has found and a maximum puppy allowance.
